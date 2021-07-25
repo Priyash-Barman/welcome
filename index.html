@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+
+    .welcome {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        margin: 50px;
+        padding: 50px;
+        border: 3px dotted rgba(0, 0, 0, 0.904);
+        color: rgba(0, 0, 0, 0.904);
+        border-radius: 10px;
+        box-shadow: 0px 0px 18px grey;
+    }
+</style>
+
+<body>
+    <div class="welcome" id="welcome">
+        <h1></h1>
+    </div>
+
+    <script>
+        console.log("welcome");
+        document.querySelector("h1").innerHTML = "welcome";
+    </script>
+</body>
+
+</html>
